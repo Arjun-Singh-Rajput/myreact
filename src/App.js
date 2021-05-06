@@ -1,25 +1,44 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import Services from './components/pages/Services';
+import Nevbar from './components/Nevbar';
+import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
+import Notfound from './components/pages/Notfound';
+import Footer from './components/Footer';
+import Justegg from './components/pages/Justegg';
+import Justfolded from './components/pages/Just-egg-folded';
+import Justvide from './components/pages/Just-egg-sous-vide';
+import { css } from "@emotion/core";
+import ClipLoader from "react-spinners/ClipLoader";
+
+
+
+function App(){
+    
+    return(
+        <>
+        
+        <Router>
+            <div>
+            <Nevbar />
+            
+            <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/justegg" component={Justegg} />
+                <Route exact path="/Justfolded" component={Justfolded} />
+                <Route exact path="/Justvide" component={Justvide} />
+                <Route component={Notfound} />
+            </Switch>
+                
+                <Footer />
+            </div>
+        </Router>
+        </>
+    );
 }
-
 export default App;
