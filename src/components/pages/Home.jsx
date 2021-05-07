@@ -2,6 +2,7 @@ import React from 'react';
 import Data from './Data';
 import Banner from '../com/Banner';
 import Conhome from './Conhome';
+
 function Home()
 {
     
@@ -11,7 +12,8 @@ function Home()
     const lname = "singh";
     return(
         <>
-        <Banner image="https://www.ju.st/sites/default/files/stories/hero/products%20hero_DSK.jpg" imagetwo="https://www.ju.st/sites/default/files/hero/mobile/NEW_hero_mobile_newv2.jpg" />
+        <Banner image="https://www.ju.st/sites/default/files/stories/hero/products%20hero_DSK.jpg" />
+        <Banner imagetwo="https://www.ju.st/sites/default/files/hero/mobile/NEW_hero_mobile_newv2.jpg" />
         <div className="container">
             
             

@@ -133,7 +133,7 @@ footer p {
   }
 }
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1500px) {
   .mobview {
     display: none;
   }

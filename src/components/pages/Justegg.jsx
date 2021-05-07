@@ -15,7 +15,7 @@ function Justegg(){
     return(
         <>
         <div className="deskview">
-        <iframe src="https://player.vimeo.com/video/461199858?background=1&autoplay=1&mute=1&loop=1&color=FDB71B&title=0&controls=0&title=0&byline=0&portrait=0" width="100%" height="575" style={{marginTop:"-50px"}} frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/461199858?background=1&autoplay=1&mute=1&loop=1&color=FDB71B&title=0&controls=0&title=0&byline=0&portrait=0" width="100%" height="852" style={{marginTop:"-70px"}} frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div className="mobview">
         <img src="https://www.ju.st/sites/default/files/hero/mobile/JE_product_page_hero_M_0.jpg" className="img2" width="100%;" style={{marginTop:"-85px",objectFit: "cover"}} />
