@@ -7,13 +7,13 @@ import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Services from './components/pages/Services';
 import Nevbar from './components/Nevbar';
-import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
+import {HashRouter as Router,Route,Switch} from 'react-router-dom';
 import Notfound from './components/pages/Notfound';
 import Footer from './components/Footer';
 import Justegg from './components/pages/Justegg';
 import Justfolded from './components/pages/Just-egg-folded';
 import Justvide from './components/pages/Just-egg-sous-vide';
-import { css } from "@emotion/core";
+
 import ClipLoader from "react-spinners/ClipLoader";
 
 

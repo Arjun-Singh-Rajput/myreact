@@ -15,7 +15,7 @@ function Nevbar()
   const [navbar,setNavbar] = useState(false);
 
   const changeBackgraund = () => {
-    if(window.scrollY >= 80){
+    if(window.scrollY >= 50){
       setNavbar(true);
     } else {
       setNavbar(false);

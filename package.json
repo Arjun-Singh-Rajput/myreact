@@ -1,7 +1,7 @@
 {
   "name": "hotelapp",
-  
   "version": "0.1.0",
+  "homepage": "http://nakedmedia.in/react/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.1.5",
